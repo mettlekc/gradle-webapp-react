@@ -18,12 +18,6 @@ public class BaseController {
     @Value("${zone}")
     String zone;
 
-    @GetMapping("/")
-    public String base() {
-        log.debug("{}", zone);
-        return zone;
-    }
-
     @GetMapping("/get")
     public Player getPlayer() {
         return Player.builder().userId("cheol-200712").code("home").build();

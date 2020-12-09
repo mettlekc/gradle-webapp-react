@@ -1,4 +1,4 @@
-### Gradle Webapp Sample
+# Gradle Webapp React Sample
 
 https://spring.io/guides/gs/spring-boot-docker/
 
